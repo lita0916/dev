@@ -1,0 +1,27 @@
+var a
+
+document.write(typeof a)
+document.write('<br>')
+document.write(!!null)
+document.write('<br>')
+document.write(typeof [1,2,3,4,5])
+
+document.write('<br>')
+document.write('' == 0)
+
+
+document.write('<br>')
+document.write(typeof(y)  === 'undefined')
+
+
+document.write('<br> ----')
+
+function ax(){
+    var res=0;
+    for(var i =0; i<arguments.length;i++){
+      res+=arguments[i]
+    }
+    return res
+}
+document.write(ax(1,2,3,4,5))
+
